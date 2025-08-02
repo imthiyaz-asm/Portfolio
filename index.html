@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohmed Imthiyaz | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader-text">Loading...</div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="profile.jpg.jpeg" alt="Profile Picture">
+      <h4>Imthiyaz</h4>
+
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="glow"></div>
+    <div class="glow glow2"></div>
+
+    <div class="hero-content" >
+      
+    <h1>Hi, I’m <span>Mohmed Imthiyaz</span></h1>
+    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+>Full Stack Developer  | Frontend & Backend Enthusiast</p>
+    <a href="ImthiyazResume.pdf" target="_blank"class="resume-button">Check My Resume</a>
+
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about vintage-bg reveal">
+    <h2>About Me</h2>
+    <p >I’m a passionate web developer who enjoys turning ideas into interactive digital experiences. With expertise in both front-end and back-end development, I focus on creating clean, efficient code and visually appealing designs. My goal is to craft websites that not only look good but also perform seamlessly..</p>
+  <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> “I love experimenting with new frameworks and contributing to open-source.”</p></section>
+
+  <!-- Education Section -->
+  <section id="education" class="education vintage-bg reveal">
+    <h2>My Journey</h2>
+    
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">     2022-2026</div>
+        <div class="timeline-content">
+          <h3>Bachelors of Engineering in Computer Science and Engineering</h3>
+          <p>Aalim Muhammed Salegh College of Engineering</p>
+          
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2020-2022</div>
+        <div class="timeline-content">
+          <h3>Higher Secondary School Completion </h3>
+          <p>VELLAIYAN CHETTIYAR HIGHER SECONDARY SCHOOL</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2019-2020</div>
+        <div class="timeline-content">
+          <h3> Secondary School Completion</h3>
+          <p>HOLY CROSS MATRICULATION SCHOOL</p>
+        </div>
+      </div>
+
+    </div>
+   
+  </section>
+
+  <!-- Skills Section -->
+   <section id="skills" class="skills vintage-bg reveal">
+    <h2>Skills</h2>
+    <ul>
+     
+      <li >
+         
+       HTML</li>
+      
+    
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React js</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects vintage-bg reveal">
+    <h2>Projects</h2>
+    <div class="project-card">
+      
+      <h3>AR Robot Assembly Kit</h3>
+      <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Developed an interactive AR application in Unity for assembling and exploring robot
+models, aimed at enhancing educational engagement. Integrated features like dragand-drop assembly, exploded view animations, and user score tracking, fostering an
+interactive learning environment
+<br>
+Technologies used : Unity(2022.3.58f1),AR Foundations, Android support.</p>
+    </div>
+    <div class="project-card">
+      <h3>Conference Management System </h3>
+      <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Developed a full-stack web application to manage academic and professional
+conferences. Features include paper submission, reviewer assignment, user
+registration, admin panel, and approval workflow Implemented user roles for
+authors, reviewers, and administrators with secure login and access control
+<br>
+Technologies used : HTML, CSS, JavaScript, PHP
+</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact reveal">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@gmail.com">mohmedimthiyaz059@gmail.com</a></p>
+    <p>Phone: +91 8680850498</p>
+  </section>0
+ <div class="social-links">
+  <a href="https://www.linkedin.com/in/mohmed-imthiyaz-i-742342258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="24" height="24">
+  </a>
+</div>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Imthiyaz. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Preloader
+    window.addEventListener('load', () => {
+      document.getElementById('preloader').classList.add('fade-out');
+      setTimeout(() => {
+        document.getElementById('preloader').style.display = 'none';
+      }, 1000);
+    });
+
+    // Hamburger
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    // Scroll Reveal
+    const reveals = document.querySelectorAll('.reveal');
+    function revealOnScroll() {
+      const windowHeight = window.innerHeight;
+      reveals.forEach((el) => {
+        const revealTop = el.getBoundingClientRect().top;
+        if (revealTop < windowHeight - 80) {
+          el.classList.add('show');
+        }
+      });
+    }
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+
+    // Scroll Progress Bar
+    const progressBar = document.getElementById('progress-bar');
+    window.addEventListener('scroll', () => {
+      let scroll = document.documentElement.scrollTop;
+      let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let scrolled = (scroll / height) * 100;
+      progressBar.style.width = scrolled + '%';
+    });
+  </script>
+
+</body>
+</html>
