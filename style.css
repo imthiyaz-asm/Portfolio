@@ -317,11 +317,11 @@ h2 {
   border-radius: 12px;
   transition: 0.3s ease;
 }
-.projects .project-card:hover {
+//.projects .project-card:hover {
   background: rgba(255,255,255,0.2);
   transform: translateY(-3px);
   box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
-}
+}//
 
 /* Timeline */
 .timeline {
@@ -414,5 +414,6 @@ footer {
   margin: 0 10px;
   display: inline-block;
 }
+
 
 
